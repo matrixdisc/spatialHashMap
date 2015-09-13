@@ -146,10 +146,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GuidProivder.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SpatialHashMap.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GuidProivder.h" />
     <ClInclude Include="SpatialHashMap.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

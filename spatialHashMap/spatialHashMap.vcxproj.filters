@@ -21,9 +21,15 @@
     <ClCompile Include="SpatialHashMap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GuidProivder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SpatialHashMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GuidProivder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
