@@ -2,16 +2,17 @@
 
 
 
-GuidProivder::GuidProivder()
+Guid::Guid()
 {
+	i = 0;
 }
 
 
-GuidProivder::~GuidProivder()
+Guid::~Guid()
 {
 }
 
-int GuidProivder::Generate()
+int Guid::New()
 {
 	return i++;
 }

@@ -1,11 +1,11 @@
 #pragma once
-class GuidProivder
+class Guid
 {
 public:
-	GuidProivder();
-	~GuidProivder();
-	int Generate();
+	Guid();
+	~Guid();
+	int New();
 private:
-	int i = 0;
+	int i;
 };
 
